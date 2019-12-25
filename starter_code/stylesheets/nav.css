@@ -1,0 +1,109 @@
+html {
+  font-size: 10px;
+  font-family: Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #5b5e6d;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  font-size: 1.8rem;
+  margin-left: 3rem;
+  color: #5b5e6d;
+}
+
+#workspaces {
+  border: 1px solid #5b5e6d;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 757px) {
+
+  nav {
+    padding: 0.5rem 3rem;
+  }
+
+  #slack-nav {
+    width: 10rem
+  }
+
+  #burguer {
+    width: 3rem;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+}
+
+@media (min-width: 758px) and (max-width: 960px){
+
+  nav {
+    padding: 0.7rem 3.5rem;
+  }
+
+  #slack-nav {
+    width: 12rem
+  }
+
+  #burguer {
+    width: 4rem;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+}
+
+@media (min-width: 961px) and (max-width: 1200px){
+
+  nav {
+    padding: 0.7rem 6rem;
+  }
+
+  #slack-nav {
+    width: 14rem
+  }
+
+  #burguer {
+    width: 6rem;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+}
+
+@media (min-width: 1201px) {
+
+  nav {
+    padding: 0.7rem 10rem;
+  }
+
+  #slack-nav {
+    width: 14rem
+  }
+
+  #burguer {
+    display: none;
+  }
+
+}
