@@ -29,13 +29,16 @@ nav ul li {
 }
 
 @media (max-width: 757px) {
+  body {
+    padding-top: 16vh;
+  }
 
   nav {
     padding: 0.5rem 3rem;
   }
 
   #slack-nav {
-    width: 10rem
+    width: 10rem;
   }
 
   #burguer {
@@ -45,17 +48,41 @@ nav ul li {
   nav ul {
     display: none;
   }
-
 }
 
-@media (min-width: 758px) and (max-width: 960px){
+@media (min-width: 758px) and (max-width: 960px) {
+  body {
+    padding-top: 15vh;
+  }
 
   nav {
-    padding: 0.7rem 3.5rem;
+    padding: 1rem 5rem;
   }
 
   #slack-nav {
-    width: 12rem
+    width: 12rem;
+  }
+
+  #burguer {
+    width: 5rem;
+  }
+
+  nav ul {
+    display: none;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+  body {
+    padding-top: 15vh;
+  }
+
+  nav {
+    padding: 1rem 7rem;
+  }
+
+  #slack-nav {
+    width: 12rem;
   }
 
   #burguer {
@@ -65,41 +92,26 @@ nav ul li {
   nav ul {
     display: none;
   }
-
-}
-
-@media (min-width: 961px) and (max-width: 1200px){
-
-  nav {
-    padding: 0.7rem 6rem;
-  }
-
-  #slack-nav {
-    width: 14rem
-  }
-
-  #burguer {
-    width: 6rem;
-  }
-
-  nav ul {
-    display: none;
-  }
-
 }
 
 @media (min-width: 1201px) {
+  body {
+    padding-top: 25vh;
+  }
 
   nav {
-    padding: 0.7rem 10rem;
+    padding: 1rem 7rem;
   }
 
   #slack-nav {
-    width: 14rem
+    width: 12rem;
   }
 
   #burguer {
     display: none;
   }
 
+  nav ul {
+    display: flex;
+  }
 }

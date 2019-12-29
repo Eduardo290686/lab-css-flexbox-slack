@@ -1,5 +1,8 @@
-@media (max-width: 757px) {
+#home-talking-img {
+  height: 50vw;
+}
 
+@media (max-width: 757px) {
   main {
     padding: 1rem 0;
     display: flex;
@@ -12,10 +15,6 @@
   #home-talking-img-div {
     padding: 0 3rem;
     margin-bottom: 2rem;
-  }
-
-  #home-talking-img {
-    height: 70vw;
   }
 
   #good-company-div {
@@ -52,6 +51,13 @@
     border-radius: 0.5rem;
     background: white;
     margin-bottom: 2rem;
+  }
+
+  .main-container-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .main-images-container {
@@ -110,5 +116,358 @@
     background: blue;
     width: 74vw;
   }
+}
 
+@media (min-width: 758px) and (max-width: 960px) {
+  main {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(185, 185, 185);
+  }
+
+  #home-talking-img-div {
+    padding: 0 4rem;
+    margin-bottom: 3rem;
+  }
+
+  #good-company-div {
+    background: rgb(231, 231, 231);
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #good-company-div h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(68, 61, 61);
+    margin: 4rem 0 1.5rem 0;
+  }
+
+  #good-company-div p {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(68, 61, 61);
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  #good-company-div button {
+    padding: 1rem 7.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: blue;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    background: white;
+    margin-bottom: 3rem;
+  }
+
+  #main-container-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-images-container {
+    padding: 4rem 0;
+    width: 40vw;
+    height: 15vh;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-container-img {
+    width: 20vw;
+  }
+
+  .middle-line {
+    border-left: 1px solid rgb(185, 185, 185);
+  }
+
+  #main-bottom-div {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #main-bottom-div-first-p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(49, 44, 44);
+    margin-bottom: 1rem;
+  }
+
+  #main-bottom-div-second-p {
+    font-size: 2rem;
+    color: rgb(49, 44, 44);
+    margin-bottom: 1.5rem;
+  }
+
+  #main-bottom-div input {
+    padding: 1rem 0.6rem;
+    font-size: 2rem;
+    border-radius: 0.8rem;
+    margin-bottom: 3rem;
+    width: 70vw;
+    margin-bottom: 1.5rem;
+  }
+
+  #main-bottom-div button {
+    padding: 1.4rem 0.6rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 0.8rem;
+    margin-bottom: 3rem;
+    background: blue;
+    width: 73vw;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+  main {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(185, 185, 185);
+  }
+
+  #home-talking-img-div {
+    padding: 0 4rem;
+    margin-bottom: 3rem;
+  }
+
+  #good-company-div {
+    background: rgb(231, 231, 231);
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #good-company-div h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(68, 61, 61);
+    margin: 4rem 0 1.5rem 0;
+  }
+
+  #good-company-div p {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(68, 61, 61);
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  #good-company-div button {
+    padding: 1rem 7.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: blue;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    background: white;
+    margin-bottom: 5rem;
+  }
+
+  #main-container-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-images-container {
+    padding: 4rem 0;
+    width: 30vw;
+    height: 15vh;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-container-img {
+    width: 20vw;
+  }
+
+  .right-line {
+    border-right: 1px solid rgb(185, 185, 185);
+  }
+
+  #main-bottom-div {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #main-bottom-div-first-p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(49, 44, 44);
+    margin-bottom: 1rem;
+  }
+
+  #main-bottom-div-second-p {
+    font-size: 2rem;
+    color: rgb(49, 44, 44);
+    margin-bottom: 1.5rem;
+  }
+
+  #main-bottom-div input {
+    padding: 1rem 0.6rem;
+    font-size: 2rem;
+    border-radius: 0.8rem;
+    margin-bottom: 3rem;
+    width: 70vw;
+    margin-bottom: 1.5rem;
+  }
+
+  #main-bottom-div button {
+    padding: 1.4rem 0.6rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 0.8rem;
+    margin-bottom: 3rem;
+    background: blue;
+    width: 73vw;
+  }
+}
+
+@media (min-width: 1201px) {
+
+  main {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(185, 185, 185);
+  }
+
+  #home-talking-img-div {
+    padding: 0 4rem;
+    margin-bottom: 3rem;
+  }
+  #good-company-div {
+    background: rgb(231, 231, 231);
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #good-company-div h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(68, 61, 61);
+    margin: 4rem 0 1.5rem 0;
+  }
+
+  #good-company-div p {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(68, 61, 61);
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  #good-company-div button {
+    padding: 1rem 7.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: blue;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    background: white;
+    margin-bottom: 5rem;
+  }
+
+  #main-container-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-images-container {
+    padding: 4rem 0;
+    width: 30vw;
+    height: 15vh;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-container-img {
+    width: 20vw;
+  }
+
+  .right-line {
+    border-right: 1px solid rgb(185, 185, 185);
+  }
+
+  #main-bottom-div {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #main-bottom-div-first-p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(49, 44, 44);
+    margin-bottom: 1rem;
+  }
+
+  #main-bottom-div-second-p {
+    font-size: 2rem;
+    color: rgb(49, 44, 44);
+    margin-bottom: 1.5rem;
+  }
+
+  #main-bottom-div input {
+    padding: 1rem 0.6rem;
+    font-size: 2rem;
+    border-radius: 0.8rem;
+    margin-bottom: 3rem;
+    width: 70vw;
+    margin-bottom: 1.5rem;
+  }
+
+  #main-bottom-div button {
+    padding: 1.4rem 0.6rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 0.8rem;
+    margin-bottom: 3rem;
+    background: blue;
+    width: 73vw;
+  }
 }
