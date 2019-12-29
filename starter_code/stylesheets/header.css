@@ -1,0 +1,96 @@
+@media (max-width: 757px) {
+
+  #get-started-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    padding: 1rem 3rem;
+    margin-bottom: 1rem;
+  }
+
+  header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+
+  header p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #get-started-div input {
+    padding:  1rem 0.6rem;
+    font-size: 1.6rem;
+    border-radius: 0.8rem;
+    margin-bottom: 2rem;
+  }
+
+  #get-started-div button {
+    padding: 1.4rem 0.6rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 0.8rem;
+    margin-bottom: 2rem;
+    background: blue;
+  }
+
+  #sign-in-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media (min-width: 758px) and (max-width: 960px) {
+
+  #get-started-div {
+    display: flex;
+    flex-direction: column;
+  }
+    
+  header {
+    padding: 2rem 5rem;
+  }
+
+  header h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+  }
+
+  header p {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+
+}
+
+@media (min-width: 961px) and (max-width: 1200px){
+
+  #get-started-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    padding: 2.5rem 6rem;
+  }
+
+  header h1 {
+    font-size: 3.8rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+
+  header p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+
+}
