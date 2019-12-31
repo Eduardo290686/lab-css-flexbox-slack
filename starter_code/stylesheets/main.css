@@ -1,7 +1,3 @@
-#home-talking-img {
-  height: 50vw;
-}
-
 @media (max-width: 757px) {
   main {
     padding: 1rem 0;
@@ -10,11 +6,6 @@
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid rgb(185, 185, 185);
-  }
-
-  #home-talking-img-div {
-    padding: 0 3rem;
-    margin-bottom: 2rem;
   }
 
   #good-company-div {
@@ -126,11 +117,6 @@
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid rgb(185, 185, 185);
-  }
-
-  #home-talking-img-div {
-    padding: 0 4rem;
-    margin-bottom: 3rem;
   }
 
   #good-company-div {
@@ -245,12 +231,7 @@
     align-items: center;
     border-bottom: 1px solid rgb(185, 185, 185);
   }
-
-  #home-talking-img-div {
-    padding: 0 4rem;
-    margin-bottom: 3rem;
-  }
-
+  
   #good-company-div {
     background: rgb(231, 231, 231);
     padding: 0 4rem;
@@ -365,7 +346,7 @@
     border-bottom: 1px solid rgb(185, 185, 185);
   }
 
-  #home-talking-img-div {
+  #-img-div {
     padding: 0 4rem;
     margin-bottom: 3rem;
   }
