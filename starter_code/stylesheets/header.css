@@ -1,3 +1,35 @@
+#get-started-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#get-started-div input {
+  padding: 1.4rem;
+  width: 70%;
+  font-size: 2rem;
+  border-radius: 0.8rem;
+  margin-bottom: 3rem;
+}
+
+#get-started-div button {
+  padding: 1.8rem 0;
+  width: 70%;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 0.8rem;
+  margin-bottom: 3rem;
+  background: blue;
+}
+
+#sign-in-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 757px) {
 
   header {
@@ -21,48 +53,12 @@
     margin-bottom: 4rem;
   }
 
-  #get-started-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #get-started-div input {
-    padding: 2vh 0.5rem;
-    width: 95%;
-    font-size: 1.6rem;
-    border-radius: 0.8rem;
-    margin: 0 2rem 4rem 2rem;
-  }
-
-  #get-started-div button {
-    padding: 2vh 0;
-    width: 98%;
-    font-size: 1.6rem;
-    font-weight: bold;
-    color: white;
-    border-radius: 0.8rem;
-    margin-bottom: 2rem;
-    background: blue;
-  }
-
-  #sign-in-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   #home-talking-img {
     height: 70vw;
   }
 }
 
 @media (min-width: 758px) and (max-width: 960px) {
-  #get-started-div {
-    display: flex;
-    flex-direction: column;
-  }
 
   header {
     padding: 0 6rem 0 6rem;
@@ -86,39 +82,12 @@
     margin-bottom: 2rem;
   }
 
-  #get-started-div input {
-    padding: 1.2rem 0.8rem;
-    font-size: 2rem;
-    border-radius: 0.8rem;
-    margin-bottom: 4rem;
-  }
-
-  #get-started-div button {
-    padding: 1.6rem 30vw;
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-    border-radius: 0.8rem;
-    margin-bottom: 4rem;
-    background: blue;
-  }
-
-  #sign-in-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   #home-talking-img {
     height: 70vw;
   }
 }
 
 @media (min-width: 960px) and (max-width: 1200px) {
-  #get-started-div {
-    display: flex;
-    flex-direction: column;
-  }
 
   header {
     padding: 0 6rem 0 6rem;
@@ -142,39 +111,12 @@
     margin-bottom: 3rem;
   }
 
-  #get-started-div input {
-    padding: 1.4rem 1rem;
-    font-size: 2rem;
-    border-radius: 0.8rem;
-    margin-bottom: 3rem;
-  }
-
-  #get-started-div button {
-    padding: 1.8rem 35rem;
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-    border-radius: 0.8rem;
-    margin-bottom: 3rem;
-    background: blue;
-  }
-
-  #sign-in-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   #home-talking-img {
     height: 70vw;
   }
 }
 
 @media (min-width: 1201px) {
-  #get-started-div {
-    display: flex;
-    flex-direction: column;
-  }
 
   header {
     padding: 0 6rem 0 6rem;
@@ -194,29 +136,6 @@
     font-size: 2rem;
     line-height: 2.5rem;
     margin-bottom: 3rem;
-  }
-
-  #get-started-div input {
-    padding: 1.4rem 1rem;
-    font-size: 2rem;
-    border-radius: 0.8rem;
-    margin-bottom: 3rem;
-  }
-
-  #get-started-div button {
-    padding: 1.8rem 1rem;
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-    border-radius: 0.8rem;
-    margin-bottom: 3rem;
-    background: blue;
-  }
-
-  #sign-in-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   #home-talking-img {
